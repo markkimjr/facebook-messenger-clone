@@ -1,0 +1,62 @@
+.people-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.people-list__item {
+  display: flex;
+  position: relative;
+}
+
+.people-list__item-column {
+  display: flex;
+  align-items: center;
+}
+
+.people-list__item-column:last-child {
+  margin-left: 20px;
+  height: 50px;
+  width: 100%;
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.people-list__item-column img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.people-list__item-column:last-child span {
+  display: block;
+  font-size: 20px;
+  color: black;
+  font-weight: 600;
+}
+
+@keyframes greenDotScale {
+  0% {
+    transform: none;
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  0% {
+    transform: none;
+  }
+}
+
+.people-list__item-column-ellipsis {
+  display: block;
+  position: absolute;
+  left: 38px;
+  bottom: 20px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: rgb(10, 209, 45, 0.9);
+  animation: greenDotScale 1s ease-in-out infinite;
+}

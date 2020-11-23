@@ -1,0 +1,148 @@
+.chat-header {
+  padding: 45px 15px 10px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f4f4f4;
+}
+
+.chat-header__column {
+  display: flex;
+  align-items: center;
+}
+
+.chat-header__column img {
+  margin: 0 20px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.chat-header__column span {
+  display: block;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.chat-header__column:last-child i:last-child {
+  margin-left: 20px;
+}
+
+.chat-header__column i {
+  color: #a234fe;
+}
+
+.chat-header__column a i {
+  font-size: 40px;
+}
+
+.chat-date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 25px 0;
+}
+
+.chat-date span {
+  font-size: 18px;
+  opacity: 0.3;
+}
+
+.chat-bubble {
+  display: flex;
+  align-items: center;
+}
+
+.my-first-message {
+  justify-content: flex-end;
+  margin-right: 30px;
+}
+
+.chat-bubble__wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 15px;
+  border-radius: 30px;
+}
+
+.my-first-message-content {
+  display: block;
+  font-size: 20px;
+  color: white;
+}
+
+.reply-message {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+.reply-message__column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reply-message__column:first-child img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.return-message {
+  display: block;
+  font-size: 20px;
+}
+
+.reply-message__column:last-child img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.first-wrapper {
+  border-bottom-right-radius: 0px;
+  background-color: #2371fd;
+}
+
+.second-wrapper {
+  border-top-left-radius: 0px;
+  background-color: #f1f1f1;
+}
+
+.chat-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.chat-nav div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 5px 5px 15px;
+  background-color: #f4f4f4;
+  width: 160px;
+  height: 50px;
+  border-radius: 40px;
+}
+
+.chat-nav div span {
+  font-size: 26px;
+  opacity: 0.6;
+}
+
+.chat-nav i {
+  color: #2371fd;
+}

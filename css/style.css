@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+@import "reset.css";
+
+/* Components */
+@import "components/status-bar.css";
+@import "components/screen-header.css";
+@import "components/nav-bar.css";
+@import "components/people-list.css";
+@import "components/no-mobile.css";
+
+/* Screens */
+@import "screens/chats.css";
+@import "screens/people.css";
+@import "screens/new-message.css";
+@import "screens/preferences.css";
+@import "screens/chat.css";
+
+body {
+  font-family: "Open Sans", sans-serif;
+}

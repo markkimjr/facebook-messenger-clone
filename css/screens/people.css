@@ -1,0 +1,22 @@
+.people-info-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 25px 0;
+}
+
+.people-info-bar__category {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 55px;
+  background-color: #f4f4f4;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.people-info-bar__category:last-child {
+  background-color: white;
+  opacity: 0.7;
+}
